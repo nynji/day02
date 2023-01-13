@@ -33,3 +33,15 @@ if diff >= 0:
 else:
     print(f'제한 글자 수 {abs(diff)}초과')
 
+#random
+
+import random #random 모듈
+
+
+limits = 20
+tweets = "pass" * random.randint(1,10) #1~10 랜덤
+diff = limits - len(tweets)
+if diff >= 0:
+    print(tweets)
+else:
+    print(f'제한 글자 수 {abs(diff)}초과')
