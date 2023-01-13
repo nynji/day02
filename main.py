@@ -21,3 +21,15 @@ print(hex(ord(" ")))
 
 PI = 3.14
 print(f'원주율의 값은 {PI}이고 타입은 {type(PI)}입니다.')
+
+
+#chap 4 if
+
+limits = 20
+tweets = "pass" * 6
+diff = limits - len(tweets)
+if diff >= 0:
+    print(tweets)
+else:
+    print(f'제한 글자 수 {abs(diff)}초과')
+
